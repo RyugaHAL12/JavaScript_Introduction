@@ -1,0 +1,2 @@
+# JavaScript_Introduction
+１冊ですべて身につくJavaScript入門講座の内容をやる
