@@ -1,0 +1,23 @@
+//  JavaScriptはどこに書く？  //
+→
+    ・HTMLの中に直接書く
+    →   
+        scriptタグで囲むとその中に直接JavaScriptを記述できる。
+        しかし、すべてのHTMLに記述しなければいけなくなるため
+        基本的に外部のJavaScriptファイルを作成し、
+        scriptタグのsrcでファイルパスを指定して読み込むのが基本である。
+
+        sample 「HTMLに直接記述する」:
+            <script>
+                ここにコードを記述する
+            </script>
+            
+        sample 「外部のJavaScriptファイルを読み込む」:
+            <script src = ~~~></script>
+
+//  Colum  //
+→
+    ・気軽にJavaScriptを試せるツール
+    →
+        「CodePen」というサイトで気軽にHTMLやCSS、JavaScriptのコードを記述して
+        表示を確認することができる。
